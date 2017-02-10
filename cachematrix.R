@@ -49,7 +49,7 @@ cacheSolve <- function(x, ...) {
                 return(i)
         }
         data <- x$get()
-        i <- solve(data, ...) ## Cumpute inverse using solve function
+        i <- solve(data, ...) ## Compute inverse using solve function
         x$setinverse(i)
         i
 }
